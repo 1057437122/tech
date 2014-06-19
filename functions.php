@@ -1,8 +1,8 @@
 <?php
 
-define('PADD_THEME_NAME','Magnesiumize');
+define('PADD_THEME_NAME','Tech');
 define('PADD_THEME_VERS','1.0');
-define('PADD_THEME_SLUG','magnesiumize');
+define('PADD_THEME_SLUG','Tech');
 define('PADD_NAME_SPACE','padd');
 define('PADD_GALL_THUMB_W',309);
 define('PADD_GALL_THUMB_H',205);
