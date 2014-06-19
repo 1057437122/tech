@@ -1,0 +1,93 @@
+/*
+Section: Typography
+*/
+
+/* HTML Tag selectors
+-----------------------------------------*/
+
+body { font: normal 12px/24px Helvetica, Arial, sans-serif; }
+input, select, option, textarea { font: normal 12px/24px Helvetica, Arial, sans-serif; }
+blockquote { font-style: italic; }
+h1, h2, h3, h4, h5, h6 { font-weight: bold; }
+
+a:link, a:visited { font-weight: normal; text-decoration: none; }
+a:hover, a:active { font-weight: normal; text-decoration: underline; }
+
+
+/* Class selectors
+-----------------------------------------*/
+
+.read-more a { font-style: italic; }
+.read-more a:link, .read-more a:visited { text-decoration: underline; }
+.read-more a:hover, .read-more a:active { text-decoration: none; }
+
+
+/* Header
+-----------------------------------------*/
+
+div#header .box-search input { font-size: 11px; line-height: 11px; font-family: 'Lucida Grande', 'Lucida Sans', Georgia, serif; }
+
+
+/* Post 
+-----------------------------------------*/
+
+.content-group .hentry h2 { font: normal 16px/20px Georgia, serif; }
+.content-group .hentry h2 a { font: normal 16px/20px Georgia, serif; }
+.content-search .hentry h2 { font: normal 16px/20px Georgia, serif; }
+.content-search .hentry h2 a { font: normal 16px/20px Georgia, serif; }
+.content-singular .hentry h1 { font: normal 28px/30px Georgia, serif; }
+
+.not-found h1 { font: normal 28px/30px Georgia, serif; }
+
+
+
+/* Post Details
+-----------------------------------------*/
+
+.post .post-box .title h2 { font-weight: normal; font-size: 18px; line-height: 24px; }
+
+
+
+/* Comments
+-----------------------------------------*/
+
+.comment .comment-author .author, .comment .comment-author .author a { font-weight: bold; }
+.comment .comment-author, .comment .comment-actions { font: normal 12px/18px Helvetica, Arial, sans-serif; }
+
+
+
+/* Comment Form
+-----------------------------------------*/
+
+.post .post-box-reply .title p.cancel-comment-reply { line-height: 24px; }
+
+
+
+
+/* Sidebar
+-----------------------------------------*/
+
+div#sidebar .box h3 { font-weight: normal; font-size: 14px; line-height: 20px; text-transform: uppercase; }
+
+div#sidebar .box-tweet ul li { font-style: italic; }
+div#sidebar .box-tweet ul li abbr { font-size: 11px; text-decoration: underline; }
+
+table#wp-calendar th { font: bold 14px/18px Helvetica, Arial, sans-serif; }
+
+
+
+/* Aside
+-----------------------------------------*/
+
+div#aside .box h3 { font-weight: normal; text-transform: uppercase; }
+div#aside .box .interior { font-size: 11px; line-height: 22px; }
+
+
+
+
+/* Footer
+-----------------------------------------*/
+
+div#footer  { font-size: 10px; line-height: 36px; }
+
+

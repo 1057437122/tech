@@ -1,0 +1,225 @@
+/*
+Section: Layout
+*/
+
+
+/* HTML Tag selectors
+-----------------------------------------*/
+
+body { margin: 0; padding: 0; }
+form { margin: 0; padding: 0; display: block; }
+blockquote { margin: 0; padding: 1em 3em; border: solid 1px; }
+a img { border: 0 none; }
+abbr { border: 0 none; }
+
+@media all and (-webkit-min-device-pixel-ratio:10000), not all and (-webkit-min-device-pixel-ratio:0) {
+	body { overflow: hidden; }
+}
+
+
+
+
+/* Class selectors
+-----------------------------------------*/
+
+.no-display { display: none; }
+.clear { clear: both; }
+.read-more { display: block; margin: 10px 0 0 0; padding: 0; height: 30px; }
+
+
+/* Container
+-----------------------------------------*/
+
+div#container { }
+
+
+
+/* Header
+-----------------------------------------*/
+
+div#header { padding: 8px 0 0 0; }
+div#header .pad { width: 960px; height: 91px; margin: 0 auto; }
+div#header .box h3 { display: none; }
+div#header .box-masthead { margin: 0; float: left; }
+div#header .box-search { margin: -1px 0 0 0; float: right; }
+
+div#header .title { display: block; width: 256px; margin: 0; padding: 0; }
+div#header .title a { display: block; width: 256px; height: 91px; line-height: 91px; margin: 0; padding: 0; outline: 0; text-indent: -999999px; }
+div#header .description { display: none; }
+
+div#header .box-search .interior { height: 40px; margin: 8px 0 0 19px; padding: 0 19px 0 0; }
+div#header .box-search p { display: block; margin: 0; padding: 0; }
+div#header .box-search label { display: none; }
+div#header .box-search input { width: 193px; margin: 0; padding: 6px 10px 6px 24px; float: left; border: 0 none; }
+div#header .box-search button { display: none; }
+
+
+
+/* Featured
+-----------------------------------------*/
+
+div#featured { padding: 0 0 6px 0; }
+div#featured .pad { width: 960px; margin: 0 auto; }
+div#featured h2 { display: none; }
+
+
+
+/* Body
+-----------------------------------------*/
+
+div#body { width: 960px; margin: 0 auto; padding: 0; }
+
+div#body .content-group { margin: 0 0 0 -30px; padding: 30px 0 0 0; }
+div#body .content-search { width: 630px; padding: 30px 0 0 0; margin: 0; float: left; }
+div#body .content-singular { width: 630px; padding: 30px 0 0 0; margin: 0 0 30px 0; float: left; }
+
+div#sidebar { width: 300px; padding: 30px 0 0 0; margin: 0; float: right; }
+div#sidebar .pad { width: 300px; margin: 0; }
+
+
+
+/* Post
+-----------------------------------------*/
+
+.content-group h1 { border: 1px solid; padding: 20px; margin: 0 0 30px 30px; text-align: center; }
+.content-group .hentry { width: 258px; border: 1px solid; padding: 20px; margin: 0 0 30px 30px; float: left; }
+.content-group .hentry div.thumbnail { position: relative; height: 180px; overflow: hidden; }
+.content-group .hentry div.thumbnail a.thumbnail { display: block; margin: 0; padding: 0; height: 180px; }
+.content-group .hentry div.thumbnail h2 { display: block; position: absolute; width: 238px; height: 40px; margin: 0; padding: 0; bottom: -60px; padding: 10px; }
+
+.content-search h1 { margin: 0 0 30px 0; }
+.content-search .hentry { width: auto; margin: 0 0 20px 0; float: none; min-height: 115px; }
+.content-search .hentry div.thumbnail { position: relative; width: auto; height: auto; float: left; }
+.content-search .hentry div.thumbnail a.thumbnail { height: auto; }
+.content-search .hentry h2 { display: block; margin: 0 0 0 135px; padding: 0 0 0.8em 0; }
+.content-search .hentry a.image { border: 0 none; float: left; }
+.content-search .hentry p { display: block; margin: 0 0 0 135px; padding: 0; }
+
+.content-singular .hentry { padding: 15px 20px; border: 1px solid; }
+.content-singular .hentry h1 { display: block; margin: 0 0 1em 0; padding: 0; }
+
+.not-found { padding: 15px 20px; border: 1px solid; }
+.not-found h1 { display: block; margin: 0 0 1em 0; padding: 0; }
+
+
+/* Post Details
+-----------------------------------------*/
+
+.post .post-box { margin: 0 0 30px 0; }
+.post .post-box .title { margin: 0; padding: 0 }
+.post .post-box .title h2 { display: block; margin: 0; padding: 12px 10px 12px 45px; width: auto; float: none; }
+
+.post .post-box-about-author img { float: left; margin: 0 10px 0 0; }
+
+.post .post-box-sb .interior { }
+.post .post-box-sb .interior ul { display: block; list-style: none; margin: 15px 0 0 0; padding: 0; height: 32px; }
+.post .post-box-sb .interior ul li { display: block; margin: 0 15px 0 0; padding: 0; float: left; }
+.post .post-box-sb .interior ul li a { display: block; float: left; }
+.post .post-box-sb .interior ul li a img { border: 0 none; padding: 0;}
+
+.post .post-box-reply { margin: 0; }
+
+
+
+/* Comments and Trackbacks
+-----------------------------------------*/
+
+ol.comments-list { display: block; list-style: none; margin: 15px 0 0 0; padding: 0; }
+ol.comments-list li.comment { display: block; list-style: none; margin: 0; padding: 0; }
+ol.comments-list li.comment ul.children { margin: 0 0 0 4em; }
+
+.comment { margin: 0 0 10px 0; }
+.comment .comment-author { padding: 10px; }
+.comment .comment-avatar { float: left; }
+.comment .comment-avatar img { margin: 0 10px 0 0; padding: 4px; }
+.comment .comment-meta { float: left; }
+.comment .comment-meta span { display: block; margin: 0; padding: 0; }
+.comment .comment-actions { float: right; }
+.comment .comment-details-interior { padding: 0 10px 10px 10px; }
+.comment .comment-details-interior ol, 
+.comment .comment-details-interior ul { padding-top: 1em; padding-bottom: 1em; }
+
+ol.trackbacks-list { margin: 1em 0 0 3em; padding: 0; }
+
+
+
+/* Comment Form
+-----------------------------------------*/
+
+.post .post-box-reply .title { margin: 0 0 10px 0; }
+.post .post-box-reply .title h2 { display: block; margin: 0; padding: 12px 10px 12px 45px; border-bottom: 0 none; float: left; }
+.post .post-box-reply .title p.cancel-comment-reply { display: block; float: right; margin: 0; padding: 12px 0; width: auto; }
+
+form#comment-form { display: block; margin: 0; padding: 0; }
+form#comment-form p { display: block; margin: 0 0 20px 0; padding: 0; line-height: 27px; }
+form#comment-form p.input label { display: none; }
+form#comment-form p.input input { width: 390px; padding: 10px; border: 1px solid; }
+form#comment-form p.textarea { display: block; margin: 5px 0 10px 0;  }
+form#comment-form p.textarea label { display: none; }
+form#comment-form p.button { display: block; text-align: left; float: right; margin: 0; padding: 0; }
+form#comment-form p.subscribe-to-comments { margin: 0; padding: 0; float: left; }
+form#comment-form textarea { width: 566px; height: 148px; padding: 5px 10px; border: 1px solid; }
+form#comment-form button { display: block; width: 99px; height: 29px; margin: 0; padding: 0; float: right; border: 0; cursor: pointer; }
+form#comment-form button span { display: none; }
+
+
+
+/* Sidebar
+-----------------------------------------*/
+
+div#sidebar h2 { display: none; }
+div#sidebar .box { padding: 20px 25px; margin: 0 0 30px 0; border: 1px solid; }
+div#sidebar .box .interior { padding: 15px 0; }
+div#sidebar .box h3 { display: block; margin: 0; padding: 0 0 10px 0; }
+div#sidebar .box ul { margin-top: 0; margin-bottom: 0; padding-top: 0; padding-bottom: 0; }
+
+div#sidebar .box-ads .interior { text-align: center; }
+
+div#sidebar .box-tweet ul { display: block; margin: 0; padding: 0; list-style: none; }
+div#sidebar .box-tweet ul li { display: block; margin: 0; padding: 5px 0; }
+div#sidebar .box-tweet ul li span.padd-twitter-timestamp { display: block; }
+
+div#flickrrss { position: relative; height: 222px; }
+div#flickrrss .interior { width: 270px; margin: 0; position: absolute; }
+div#flickrrss a { display: block; float: left; margin: 0 12px 12px 0; }
+div#flickrrss img { border: 0 none; }
+
+table#wp-calendar { width: 250px; }
+table#wp-calendar caption { text-align: right; }
+table#wp-calendar th, table#wp-calendar td { border: 1px solid; }
+table#wp-calendar td { text-align: right; padding: 0 6px; }
+table#wp-calendar td.pad { border: 0 none; width: auto; }
+table#wp-calendar td#prev, table#wp-calendar td#next { border: 0 none; }
+table#wp-calendar td#prev { text-align: left; }
+table#wp-calendar td#next { text-align: right; }
+
+
+
+/* Aside
+-----------------------------------------*/
+
+div#aside { padding: 30px 0; }
+div#aside .pad { width: 960px; margin: 0 auto; }
+
+div#aside .bar { width: 210px; float: left; margin: 0 30px 0 0; }
+div#aside .bar-1 { width: 150px; }
+div#aside .bar-4 { width: 300px; margin: 0; }
+
+div#aside .box h3 { display: block; margin: 0 0 15px 0; }
+div#aside .box ul { display: block; margin: 0; padding: 0; list-style-type: none; }
+div#aside .box ul li { display: block; margin: 0 0 5px 0; padding: 0; list-style-type: none; text-indent: 1em; }
+div#aside .box ul { display: block; margin: 0; padding: 0; list-style-type: none; }
+div#aside .box ul ul { display: block; margin: 5px 0 -5px 1em; padding: 0; list-style-type: none; }
+
+div#aside .box ul.socialnet { display: block; margin: 1em 0 0 0; padding: 0; height: 28px; }
+div#aside .box ul.socialnet li { display: block; margin: 0 1em 0 0; height: 28px; float: left; }
+div#aside .box ul.socialnet li a { display: block; width: 28px; height: 28px; outline: none; text-indent: -999999px; }
+
+
+/* Footer
+-----------------------------------------*/
+
+div#footer .pad { width: 960px; margin: 0 auto; padding: 6px 0 0 0; }
+div#footer p { display: block; margin: 0; padding: 0; }
+div#footer p.copyright { float: left; }
+div#footer p.annotation { float: right; }

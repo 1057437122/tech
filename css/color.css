@@ -1,0 +1,138 @@
+/*
+Section: Color
+*/
+
+/* HTML Tag selectors
+-----------------------------------------*/
+
+body { color: #333; background: #f5f5f1 none; }
+blockquote { border-color: #c8c8c8; background: #eee none }
+blockquote blockquote { border-color: #c8c8c8; background: #fefefe none }
+blockquote blockquote blockquote { border-color: #c8c8c8; background: #eee none }
+
+a:link, a:visited { color: #789048; }
+
+
+/* Class selectors
+-----------------------------------------*/
+
+
+
+
+/* Header
+-----------------------------------------*/
+
+div#header { background: #383636 url('../images/bg-header.gif') left top repeat-x; }
+div#header .title { background: transparent url('../images/site-name.png') left top no-repeat; }
+
+div#header .box-search { background: transparent url('../images/bg-search-form.gif') left top no-repeat; }
+div#header .box-search input { color: #8e8e8e; background: transparent url('../images/input-search.png') left top no-repeat; }
+
+
+
+/* Featured
+-----------------------------------------*/
+
+div#featured { background: #dfdfd7 url('../images/bd-featured.gif') left bottom repeat-x; }
+
+
+
+/* Body
+-----------------------------------------*/
+
+div#body { }
+div#body .pad { background: transparent none; }
+
+div#content { background: transparent none; }
+div#content .pad { background: transparent none; }
+
+div#sidebar { background: transparent none; }
+div#sidebar .pad { background: transparent none; }
+
+
+
+/* Post
+-----------------------------------------*/
+
+.content-group h1 { background: #ececec none; border-color: #e9e9e5; text-shadow: 1px 1px #fff; }
+.content-group .hentry { background: #fff none; border-color: #e9e9e5; }
+.content-group .hentry h2 { background: transparent url('../images/bg-post-title.png') left top repeat; }
+.content-group .hentry h2 a { color: #fff; }
+
+.content-search .hentry h2 { background: transparent none; }
+.content-search .hentry h2 a { color: #789048; }
+
+.content-singular .hentry { background: #fff none; border-color: #e9e9e5; }
+
+.not-found { background: #fff none; border-color: #e9e9e5; }
+
+.post .post-box .title { background: transparent url('../images/bd-post-title.gif') left bottom repeat-x }
+.post .post-box-about-author .title h2 { background: transparent url('../images/bg-post-box-author.png') 0 0 no-repeat; }
+.post .post-box-sb h2 { background: transparent url('../images/bg-post-box-spread-love.png') 0 0 no-repeat; }
+.post .post-box-sb ul li { background: transparent none; }
+.post .post-box-sb img { background: transparent none; }
+.post .post-box-related h2 { background: transparent url('../images/bg-post-box-related-posts.png') 0 0 no-repeat; }
+.post .post-box-comments h2 { background: transparent url('../images/bg-post-box-comments.png') 0 0 no-repeat; }
+.post .post-box-trackbacks h2 { background: transparent url('../images/bg-post-box-trackbacks.png') 0 0 no-repeat; }
+.post .post-box-reply h2 { background: transparent url('../images/bg-post-box-comment-add.png') 0 0 no-repeat; }
+
+.comment { background: #f2f2f2 none; }
+.comment .comment-author { background: #ccc url('../images/bg-comment-author.gif') bottom left repeat-x; }
+.comment .comment-avatar img { background: #fff none; }
+
+
+
+/* Comment Form
+-----------------------------------------*/
+
+.post .post-box-reply .title p.cancel-comment-reply { background: transparent none; }
+
+form#comment-form p.input input { color: #000; background: #fff none; border-color: #ddd; }
+form#comment-form small { color: #b7b7b7; }
+form#comment-form textarea { color: #000; background: #fff none; border-color: #ddd; }
+form#comment-form button { background: transparent url('../images/button-comments-submit.png') left top no-repeat; }
+
+
+
+/* Sidebar
+-----------------------------------------*/
+
+div#sidebar .box { background: #fff none; border-color: #e9e9e5; }
+div#sidebar .box .title { color: #666; background: transparent url('../images/bd-box-title.gif') bottom center repeat-x; }
+
+div#sidebar .box-tweet ul li { color: #333; }
+div#sidebar .box-tweet ul li a { color: #333; }
+div#sidebar .box-tweet ul li abbr { color: #789048; }
+
+div#flickrrss h3 { background: transparent url('../images/bg-box-title-flickr.png') 295px 11px no-repeat; }
+div#flickrrss img { background: transparent url('../images/bg-image-flickr.png') center center no-repeat; }
+
+table#wp-calendar th { border-color: #666; background: #666 none; color: #fff; }
+table#wp-calendar td { border-color: #ccc; }
+
+
+
+/* Aside
+-----------------------------------------*/
+
+div#aside { background: #383636 url('../images/bd-aside.gif') left top repeat-x; }
+div#aside .box { color: #999; text-shadow: 1px 1px #000; }
+div#aside .box h3 { color: #fff; }
+div#aside .box a:link, div#aside .box a:visited { color: #999; }
+div#aside .box a:hover, div#aside .box a:active { color: #fff; }
+div#aside .box ul li { background: transparent url('../images/bullet-aside.gif') 0 8px no-repeat; }
+
+div#aside .box ul.socialnet li.rss { background: transparent url('../images/bg-sn-rss.png') 0 0 no-repeat; }
+div#aside .box ul.socialnet li.facebook { background: transparent url('../images/bg-sn-facebook.png') 0 0 no-repeat; }
+div#aside .box ul.socialnet li.twitter { background: transparent url('../images/bg-sn-twitter.png') 0 0 no-repeat; }
+
+
+
+/* Footer
+-----------------------------------------*/
+
+div#footer { color: #7f6f66; text-shadow: 1px 1px #fff;  background: transparent url('../images/bd-footer.gif') left top repeat-x; }
+div#footer a:link, div#footer a:visited { color: #7f6f66; text-shadow: 1px 1px #fff; } 
+
+
+

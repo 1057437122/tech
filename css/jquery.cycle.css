@@ -1,0 +1,43 @@
+
+div#jquery-cycle { 
+	position: relative; width: 860px; height: 237px; padding: 14px 0; margin: 0 auto;
+}
+div#jquery-cycle .list { position: absolute; width: 860px; height: 222px; z-index: 1; overflow: hidden; }
+
+div#jquery-cycle #jqc-prev:hover { background-position: left bottom; }
+div#jquery-cycle #jqc-next:hover { background-position: left bottom;}
+
+div#jquery-cycle .item { width: 860px; height: 222px; margin: 0; }
+div#jquery-cycle .item .image { display: block; float: right; }
+div#jquery-cycle .item img { border-bottom: 1px solid #c0c0b9; padding: 8px; background: #fff none; }
+div#jquery-cycle .item .meta  { width: 480px; height: 222px; float: left; }
+div#jquery-cycle h3 { 
+	display: block; margin: 0 0 10px 0; padding: 0 0 10px 0; 
+	font: normal 24px/32px Georgia, sans-serif;
+	background: transparent url('../images/cycle/bd-featured-title.gif') left bottom repeat-x;
+}
+div#jquery-cycle h3 a { 
+	color: #7f6f66; text-shadow: 1px 1px #fff;
+}
+div#jquery-cycle p { 
+	display: block; padding: 0; margin: 0;
+	font: normal 12px/24px Helvetica, Arial, sans-serif;
+	color: #000;
+}
+div#jquery-cycle p.date {
+	margin: 0 0 10px 0; 
+}
+div#jquery-cycle p.date span { 
+	font-size: 11px;
+	background: #789048 none;
+	color: #fff; padding: 3px 10px;
+}
+
+div#jquery-cycle div#jqc-pages { position: absolute; width: 324px; top: 244px; left: 549px; text-align: center; }
+div#jquery-cycle div#jqc-pages button { 
+	margin: 0 2px; padding: 0; width: 15px; height: 15px; border: 0 none; outline: none;
+	background: transparent url('../images/cycle/slide-no.png') left top no-repeat;
+}
+div#jquery-cycle div#jqc-pages button span { display: none; }
+
+div#jquery-cycle div#jqc-pages button.jqc-active { background-position: left bottom; }

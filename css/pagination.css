@@ -1,0 +1,35 @@
+
+div.pagination  { background: transparent url('../images/bd-pagination.gif') left top repeat-x; overflow: hidden; }
+
+div.content-group div.pagination { margin: 0 0 40px 30px; height: 28px; padding: 30px 0 0 0; }
+div.content-search div.pagination { margin: 0 0 40px 0px; height: 28px; padding: 30px 0 0 0; }
+
+div.pagination div.interior { position: relative; width: 100%; float: left; overflow: hidden; }
+div.pagination div.inner { clear: left; float: left; text-align: center; position: relative; left: 50%; }
+div.pagination span.pseudo-li { position: relative; display: block; float: left; right: 50%; margin: 0 10px 0 0; }
+
+div.pagination span.pages, div.pagination span.current, 
+div.pagination span.extend, div.pagination a {
+	display: block; height: 26px; text-decoration: none; text-align: center; min-width: 30px;
+	border: 1px solid #ddd; color: #666; text-shadow: 1px 1px #fff;
+}
+div.pagination span.pages span.inner, div.pagination span.current span.inner,
+div.pagination span.extend span.inner, div.pagination a span.inner {
+	display: block; left: 0; 
+	margin: 0; padding: 0 7px; height: 24px;
+	font-size: 11px; line-height: 24px; border: 1px solid #f5f5f1;
+	font-family: Georgia, sans-serif; font-style: italic;
+}
+div.pagination span.extend {
+	border: 1px solid #ddd;
+	color: #666;
+}
+div.pagination span.current, 
+div.pagination a:hover, div.pagination a:active {
+	background: #fff none;
+}
+div.pagination span.current span.inner, 
+div.pagination a:hover span.inner, div.pagination a:active span.inner {
+	color: #fff; text-shadow: 1px 1px #000;
+	background: #789048 none; border: 1px solid #fff;
+}

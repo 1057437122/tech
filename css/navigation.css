@@ -1,0 +1,51 @@
+
+/* Layout
+-----------------------------------------*/
+
+div#menubar { padding: 2px 0 0 0; }
+div#menubar .pad { height: 46px; width: 960px; margin: 0 auto; }
+div#menubar h3 { display: none; }
+div#menubar .interior { padding: 0 0 0 2px; }
+div#menubar ul { display: block; list-style: 0 none; margin: 0; padding: 0; list-style: none; }
+div#menubar ul li { display: block; margin: 0; padding: 0 1px 0 0; float: left; position: relative; }
+div#menubar ul ul { position: absolute; display: none; width: 15em; float: none; margin: -10px 0 0 0; padding: 10px 0; left: 0; height: auto; }
+div#menubar ul ul li { padding: 0; }
+div#menubar ul ul ul { float: left; margin: -66px 0 0 0; }
+div#menubar ul a { display: block; margin: 0; padding: 0 20px; outline: 0; }
+div#menubar ul li:hover ul, div#menubar ul li.hover ul { display: block; left: 0; top: 56px; z-index: 999999; }
+div#menubar ul li:hover li { float: none; }
+
+div#menubar ul a .sf-sub-indicator { float: right; width: 11px; height: 46px; margin: 0 0 0 10px; text-indent: -999999px; }
+div#menubar ul ul a .sf-sub-indicator { float: right; width: 11px; height: 28px; margin: 0 0 0 10px; text-indent: -999999px; }
+
+
+
+/* Colors and Images
+-----------------------------------------*/
+
+div#menubar { background: #323030 url('../images/bd-menubar.gif') left top repeat-x; }
+div#menubar .pad { background: transparent url('../images/bd-menubar-item.gif') left center repeat-y; }
+
+div#menubar ul ul { background: transparent url('../images/bg-menubar-item-2.png') left top repeat; }
+div#menubar li { background: transparent url('../images/bd-menubar-item.gif') right center repeat-y; }
+div#menubar li a { color: #fff; text-shadow: 1px 1px #000; text-decoration: none; }
+div#menubar li:hover a, div#menubar li.hover a  { color: #9fae43; }
+div#menubar li.current-menu-item a { color: #9fae43; }
+div#menubar li.current_page_item a { color: #9fae43; }
+
+div#menubar ul a .sf-sub-indicator { background: transparent url('../images/arrow-menubar-1.png') right center no-repeat;  }
+div#menubar ul ul a .sf-sub-indicator { background: transparent url('../images/arrow-menubar-2.png') right center no-repeat;  }
+
+div#menubar li:hover li, div#menubar li.hover li { background: transparent none; }
+div#menubar li:hover li a, div#menubar li.hover li a { color: #fff; } 
+div#menubar li:hover li:hover a, div#menubar li.hover li.hover a { color: #fff; }
+div#menubar li:hover li.li-current-menu-item a, div#menubar li.hover li.current-menu-item a { color: #fff; }
+div#menubar li:hover li.current_page_item a, div#menubar li.hover li.current_page_item a { color: #fff; }
+
+
+/* Typography
+-----------------------------------------*/
+
+div#menubar ul { font-size: 11px; font-weight: bold; line-height: 46px; }
+div#menubar ul ul li { line-height: 28px; }
+div#menubar li:hover li a:hover, div#menubar li.hover li a:hover { text-decoration: underline; } 
